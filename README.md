@@ -43,4 +43,7 @@ npm start
 Usage
 Once the application is running, you can interact with the application by visiting the appropriates.
 
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
