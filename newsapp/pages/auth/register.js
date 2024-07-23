@@ -22,7 +22,7 @@ export default function Register() {
     setError('')
     e.preventDefault();
     try {
-      await axios.post('/api/auth/regiter', { name, email, password });
+      await axios.post('/api/auth/register', { name, email, password });
       router.push('/auth/login');
     } catch (error) {
       console.error('Failed to register:', error.response.status);
