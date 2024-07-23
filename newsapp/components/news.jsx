@@ -9,7 +9,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useEffect } from 'react';
-import NewsWidget from './newsWidget.jsx';
+import NewsWidget from './newswidget.jsx';
 
 export default function News() {
   const [category, setCategory] = useState('technology');
