@@ -7,9 +7,9 @@
 **/
 
 import { useEffect, useState } from 'react';
-import NavBar from '../components/NavBar';
-import Weather from '../components/Weather';
-import News from '../components/news';
+import NavBar from '../components/NavBar.jsx';
+import Weather from '../components/Weather.jsx';
+import News from '../components/navbar.jsx';
 
 
 export default function Home() {

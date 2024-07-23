@@ -1,4 +1,4 @@
-import { verifyToken } from '../utils/jwt';
+import { verifyToken } from '../utils/jwt.js';
 
 const authMiddleware = (handler) => async (req, res) => {
   const token = req.headers.authorization?.split(' ')[1];

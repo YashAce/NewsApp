@@ -8,7 +8,7 @@
 
 import { useState } from 'react';
 import axios from 'axios';
-import WeatherWidget from '../components/WeatherWidget';
+import WeatherWidget from '../components/WeatherWidget.jsx';
 
 export default function Weather() {
   const [city, setCity] = useState('');
